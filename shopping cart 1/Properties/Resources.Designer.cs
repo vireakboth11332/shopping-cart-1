@@ -74,6 +74,46 @@ namespace shopping_cart_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _lock {
+            get {
+                object obj = ResourceManager.GetObject("lock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Copilot_20260619_092507 {
+            get {
+                object obj = ResourceManager.GetObject("Copilot_20260619_092507", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Copilot_20260619_103255_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Copilot_20260619_103255-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customer {
+            get {
+                object obj = ResourceManager.GetObject("Customer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__10_ {
             get {
                 object obj = ResourceManager.GetObject("download (10)", resourceCulture);
@@ -204,6 +244,26 @@ namespace shopping_cart_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Key {
+            get {
+                object obj = ResourceManager.GetObject("Key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Key1 {
+            get {
+                object obj = ResourceManager.GetObject("Key1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_2026_06_18_09_21_32 {
             get {
                 object obj = ResourceManager.GetObject("photo_2026-06-18_09-21-32", resourceCulture);
@@ -287,6 +347,16 @@ namespace shopping_cart_1.Properties {
         internal static System.Drawing.Bitmap toyota_supra_gt_5120x2880_22642 {
             get {
                 object obj = ResourceManager.GetObject("toyota-supra-gt-5120x2880-22642", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Female {
+            get {
+                object obj = ResourceManager.GetObject("User Female", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -174,14 +174,14 @@
             // 
             // Food
             // 
-            Food.BackColor = SystemColors.ButtonFace;
+            Food.BackColor = Color.Red;
             Food.Controls.Add(panel2);
             Food.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Food.Location = new Point(15, 82);
-            Food.Margin = new Padding(4);
+            Food.Location = new Point(16, 74);
+            Food.Margin = new Padding(3, 2, 3, 2);
             Food.Name = "Food";
-            Food.Padding = new Padding(4);
-            Food.Size = new Size(1020, 409);
+            Food.Padding = new Padding(3, 2, 3, 2);
+            Food.Size = new Size(714, 305);
             Food.TabIndex = 1;
             Food.TabStop = false;
             Food.Text = "Food";
@@ -227,20 +227,20 @@
             panel2.Controls.Add(button1);
             panel2.Controls.Add(label2);
             panel2.Controls.Add(pictureBox1);
-            panel2.Location = new Point(19, 32);
-            panel2.Margin = new Padding(4);
+            panel2.Location = new Point(13, 19);
+            panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(981, 354);
+            panel2.Size = new Size(687, 268);
             panel2.TabIndex = 0;
             // 
             // button12
             // 
             button12.BackColor = SystemColors.MenuHighlight;
             button12.ForeColor = SystemColors.ButtonFace;
-            button12.Location = new Point(766, 450);
-            button12.Margin = new Padding(4);
+            button12.Location = new Point(536, 270);
+            button12.Margin = new Padding(3, 2, 3, 2);
             button12.Name = "button12";
-            button12.Size = new Size(118, 36);
+            button12.Size = new Size(83, 22);
             button12.TabIndex = 36;
             button12.Text = "Add";
             button12.UseVisualStyleBackColor = false;
@@ -248,20 +248,20 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(766, 409);
-            label12.Margin = new Padding(4, 0, 4, 0);
+            label12.Font = new Font("Lucida Fax", 9F);
+            label12.Location = new Point(536, 245);
             label12.Name = "label12";
-            label12.Size = new Size(126, 30);
+            label12.Size = new Size(80, 15);
             label12.TabIndex = 35;
             label12.Text = "Steak $5.00";
             // 
             // pictureBox12
             // 
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(615, 409);
-            pictureBox12.Margin = new Padding(4);
+            pictureBox12.Location = new Point(430, 245);
+            pictureBox12.Margin = new Padding(3, 2, 3, 2);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(122, 78);
+            pictureBox12.Size = new Size(85, 47);
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 34;
             pictureBox12.TabStop = false;
@@ -270,10 +270,10 @@
             // 
             button11.BackColor = SystemColors.MenuHighlight;
             button11.ForeColor = SystemColors.ButtonFace;
-            button11.Location = new Point(446, 450);
-            button11.Margin = new Padding(4);
+            button11.Location = new Point(312, 270);
+            button11.Margin = new Padding(3, 2, 3, 2);
             button11.Name = "button11";
-            button11.Size = new Size(118, 36);
+            button11.Size = new Size(83, 22);
             button11.TabIndex = 33;
             button11.Text = "Add";
             button11.UseVisualStyleBackColor = false;
@@ -281,20 +281,20 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(446, 409);
-            label11.Margin = new Padding(4, 0, 4, 0);
+            label11.Font = new Font("Lucida Fax", 9F);
+            label11.Location = new Point(312, 245);
             label11.Name = "label11";
-            label11.Size = new Size(117, 30);
+            label11.Size = new Size(77, 15);
             label11.TabIndex = 32;
             label11.Text = "Taco $1.00";
             // 
             // pictureBox11
             // 
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(300, 405);
-            pictureBox11.Margin = new Padding(4);
+            pictureBox11.Location = new Point(210, 243);
+            pictureBox11.Margin = new Padding(3, 2, 3, 2);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(122, 78);
+            pictureBox11.Size = new Size(85, 47);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 31;
             pictureBox11.TabStop = false;
@@ -303,10 +303,10 @@
             // 
             button10.BackColor = SystemColors.MenuHighlight;
             button10.ForeColor = SystemColors.ButtonFace;
-            button10.Location = new Point(162, 450);
-            button10.Margin = new Padding(4);
+            button10.Location = new Point(113, 270);
+            button10.Margin = new Padding(3, 2, 3, 2);
             button10.Name = "button10";
-            button10.Size = new Size(118, 36);
+            button10.Size = new Size(83, 22);
             button10.TabIndex = 30;
             button10.Text = "Add";
             button10.UseVisualStyleBackColor = false;
@@ -314,20 +314,20 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(160, 409);
-            label10.Margin = new Padding(4, 0, 4, 0);
+            label10.Font = new Font("Lucida Fax", 9F);
+            label10.Location = new Point(112, 245);
             label10.Name = "label10";
-            label10.Size = new Size(146, 30);
+            label10.Size = new Size(91, 15);
             label10.TabIndex = 29;
             label10.Text = "Noddle $2.00";
             // 
             // pictureBox10
             // 
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(30, 409);
-            pictureBox10.Margin = new Padding(4);
+            pictureBox10.Location = new Point(21, 245);
+            pictureBox10.Margin = new Padding(3, 2, 3, 2);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(122, 78);
+            pictureBox10.Size = new Size(85, 47);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 28;
             pictureBox10.TabStop = false;
@@ -336,10 +336,10 @@
             // 
             button9.BackColor = SystemColors.MenuHighlight;
             button9.ForeColor = SystemColors.ButtonFace;
-            button9.Location = new Point(764, 324);
-            button9.Margin = new Padding(4);
+            button9.Location = new Point(535, 194);
+            button9.Margin = new Padding(3, 2, 3, 2);
             button9.Name = "button9";
-            button9.Size = new Size(118, 36);
+            button9.Size = new Size(83, 22);
             button9.TabIndex = 27;
             button9.Text = "Add";
             button9.UseVisualStyleBackColor = false;
@@ -347,20 +347,20 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(764, 282);
-            label9.Margin = new Padding(4, 0, 4, 0);
+            label9.Font = new Font("Lucida Fax", 9F);
+            label9.Location = new Point(535, 169);
             label9.Name = "label9";
-            label9.Size = new Size(160, 30);
+            label9.Size = new Size(100, 15);
             label9.TabIndex = 26;
             label9.Text = "Spagheti $2.00";
             // 
             // pictureBox9
             // 
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(615, 282);
-            pictureBox9.Margin = new Padding(4);
+            pictureBox9.Location = new Point(430, 169);
+            pictureBox9.Margin = new Padding(3, 2, 3, 2);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(122, 78);
+            pictureBox9.Size = new Size(85, 47);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 25;
             pictureBox9.TabStop = false;
@@ -369,10 +369,10 @@
             // 
             button8.BackColor = SystemColors.MenuHighlight;
             button8.ForeColor = SystemColors.ButtonFace;
-            button8.Location = new Point(444, 324);
-            button8.Margin = new Padding(4);
+            button8.Location = new Point(311, 194);
+            button8.Margin = new Padding(3, 2, 3, 2);
             button8.Name = "button8";
-            button8.Size = new Size(118, 36);
+            button8.Size = new Size(83, 22);
             button8.TabIndex = 24;
             button8.Text = "Add";
             button8.UseVisualStyleBackColor = false;
@@ -380,20 +380,20 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(446, 282);
-            label8.Margin = new Padding(4, 0, 4, 0);
+            label8.Font = new Font("Lucida Fax", 9F);
+            label8.Location = new Point(312, 169);
             label8.Name = "label8";
-            label8.Size = new Size(126, 30);
+            label8.Size = new Size(80, 15);
             label8.TabIndex = 23;
             label8.Text = "Salad $1.00";
             // 
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(300, 282);
-            pictureBox8.Margin = new Padding(4);
+            pictureBox8.Location = new Point(210, 169);
+            pictureBox8.Margin = new Padding(3, 2, 3, 2);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(122, 78);
+            pictureBox8.Size = new Size(85, 47);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 22;
             pictureBox8.TabStop = false;
@@ -402,10 +402,10 @@
             // 
             button7.BackColor = SystemColors.MenuHighlight;
             button7.ForeColor = SystemColors.ButtonFace;
-            button7.Location = new Point(165, 324);
-            button7.Margin = new Padding(4);
+            button7.Location = new Point(116, 194);
+            button7.Margin = new Padding(3, 2, 3, 2);
             button7.Name = "button7";
-            button7.Size = new Size(118, 36);
+            button7.Size = new Size(83, 22);
             button7.TabIndex = 21;
             button7.Text = "Add";
             button7.UseVisualStyleBackColor = false;
@@ -413,20 +413,20 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(160, 282);
-            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Font = new Font("Lucida Fax", 9F);
+            label7.Location = new Point(112, 169);
             label7.Name = "label7";
-            label7.Size = new Size(138, 30);
+            label7.Size = new Size(88, 15);
             label7.TabIndex = 20;
             label7.Text = "Sushi $15.00";
             // 
             // pictureBox7
             // 
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(30, 282);
-            pictureBox7.Margin = new Padding(4);
+            pictureBox7.Location = new Point(21, 169);
+            pictureBox7.Margin = new Padding(3, 2, 3, 2);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(122, 78);
+            pictureBox7.Size = new Size(85, 47);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 19;
             pictureBox7.TabStop = false;
@@ -435,10 +435,10 @@
             // 
             button6.BackColor = SystemColors.MenuHighlight;
             button6.ForeColor = SystemColors.ButtonFace;
-            button6.Location = new Point(764, 194);
-            button6.Margin = new Padding(4);
+            button6.Location = new Point(535, 116);
+            button6.Margin = new Padding(3, 2, 3, 2);
             button6.Name = "button6";
-            button6.Size = new Size(118, 36);
+            button6.Size = new Size(83, 22);
             button6.TabIndex = 18;
             button6.Text = "Add";
             button6.UseVisualStyleBackColor = false;
@@ -446,20 +446,20 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(745, 152);
-            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Font = new Font("Lucida Fax", 9F);
+            label6.Location = new Point(522, 91);
             label6.Name = "label6";
-            label6.Size = new Size(202, 30);
+            label6.Size = new Size(130, 15);
             label6.TabIndex = 17;
             label6.Text = "Fries Chicken $3.00";
             // 
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(615, 152);
-            pictureBox6.Margin = new Padding(4);
+            pictureBox6.Location = new Point(430, 91);
+            pictureBox6.Margin = new Padding(3, 2, 3, 2);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(122, 78);
+            pictureBox6.Size = new Size(85, 47);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 16;
             pictureBox6.TabStop = false;
@@ -468,10 +468,10 @@
             // 
             button5.BackColor = SystemColors.MenuHighlight;
             button5.ForeColor = SystemColors.ButtonFace;
-            button5.Location = new Point(441, 194);
-            button5.Margin = new Padding(4);
+            button5.Location = new Point(309, 116);
+            button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(118, 36);
+            button5.Size = new Size(83, 22);
             button5.TabIndex = 15;
             button5.Text = "Add";
             button5.UseVisualStyleBackColor = false;
@@ -480,20 +480,20 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(444, 152);
-            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Font = new Font("Lucida Fax", 9F);
+            label5.Location = new Point(311, 91);
             label5.Name = "label5";
-            label5.Size = new Size(118, 30);
+            label5.Size = new Size(76, 15);
             label5.TabIndex = 14;
             label5.Text = "Fries $2.00";
             // 
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.photo_2026_06_18_09_33_30;
-            pictureBox5.Location = new Point(300, 152);
-            pictureBox5.Margin = new Padding(4);
+            pictureBox5.Location = new Point(210, 91);
+            pictureBox5.Margin = new Padding(3, 2, 3, 2);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(122, 78);
+            pictureBox5.Size = new Size(85, 47);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 13;
             pictureBox5.TabStop = false;
@@ -502,10 +502,10 @@
             // 
             button4.BackColor = SystemColors.MenuHighlight;
             button4.ForeColor = SystemColors.ButtonFace;
-            button4.Location = new Point(162, 194);
-            button4.Margin = new Padding(4);
+            button4.Location = new Point(113, 116);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(118, 36);
+            button4.Size = new Size(83, 22);
             button4.TabIndex = 12;
             button4.Text = "Add";
             button4.UseVisualStyleBackColor = false;
@@ -513,10 +513,10 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(162, 152);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Font = new Font("Lucida Fax", 8F);
+            label4.Location = new Point(113, 91);
             label4.Name = "label4";
-            label4.Size = new Size(168, 30);
+            label4.Size = new Size(93, 14);
             label4.TabIndex = 11;
             label4.Text = "Sandwich $1.00";
             label4.Click += label4_Click;
@@ -524,10 +524,10 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.sandwhich;
-            pictureBox4.Location = new Point(30, 152);
-            pictureBox4.Margin = new Padding(4);
+            pictureBox4.Location = new Point(21, 91);
+            pictureBox4.Margin = new Padding(3, 2, 3, 2);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(122, 78);
+            pictureBox4.Size = new Size(85, 47);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 10;
             pictureBox4.TabStop = false;
@@ -536,10 +536,10 @@
             // 
             button3.BackColor = SystemColors.MenuHighlight;
             button3.ForeColor = SystemColors.ButtonFace;
-            button3.Location = new Point(764, 58);
-            button3.Margin = new Padding(4);
+            button3.Location = new Point(535, 35);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(118, 36);
+            button3.Size = new Size(83, 22);
             button3.TabIndex = 9;
             button3.Text = "Add";
             button3.UseVisualStyleBackColor = false;
@@ -547,20 +547,20 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(764, 16);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Font = new Font("Lucida Fax", 9F);
+            label3.Location = new Point(535, 10);
             label3.Name = "label3";
-            label3.Size = new Size(149, 30);
+            label3.Size = new Size(92, 15);
             label3.TabIndex = 8;
             label3.Text = "Hotdog $2.00";
             // 
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(615, 16);
-            pictureBox3.Margin = new Padding(4);
+            pictureBox3.Location = new Point(430, 10);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(122, 78);
+            pictureBox3.Size = new Size(85, 47);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
@@ -569,10 +569,10 @@
             // 
             button2.BackColor = SystemColors.MenuHighlight;
             button2.ForeColor = SystemColors.ButtonFace;
-            button2.Location = new Point(444, 58);
-            button2.Margin = new Padding(4);
+            button2.Location = new Point(311, 35);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(118, 36);
+            button2.Size = new Size(83, 22);
             button2.TabIndex = 6;
             button2.Text = "Add";
             button2.UseVisualStyleBackColor = false;
@@ -580,20 +580,20 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(444, 16);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Font = new Font("Lucida Fax", 9F);
+            label1.Location = new Point(311, 10);
             label1.Name = "label1";
-            label1.Size = new Size(135, 30);
+            label1.Size = new Size(87, 15);
             label1.TabIndex = 5;
             label1.Text = "Pizza $10.99";
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.Pizza;
-            pictureBox2.Location = new Point(300, 16);
-            pictureBox2.Margin = new Padding(4);
+            pictureBox2.Location = new Point(210, 10);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(122, 78);
+            pictureBox2.Size = new Size(85, 47);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
@@ -602,10 +602,10 @@
             // 
             button1.BackColor = SystemColors.MenuHighlight;
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(160, 58);
-            button1.Margin = new Padding(4);
+            button1.Location = new Point(112, 35);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(118, 36);
+            button1.Size = new Size(83, 22);
             button1.TabIndex = 3;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = false;
@@ -613,20 +613,20 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(160, 16);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Font = new Font("Lucida Fax", 9F);
+            label2.Location = new Point(112, 10);
             label2.Name = "label2";
-            label2.Size = new Size(139, 30);
+            label2.Size = new Size(86, 15);
             label2.TabIndex = 2;
             label2.Text = "Burger $5.00";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.photo_2026_06_18_09_21_32;
-            pictureBox1.Location = new Point(30, 16);
-            pictureBox1.Margin = new Padding(4);
+            pictureBox1.Location = new Point(21, 10);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(122, 95);
+            pictureBox1.Size = new Size(85, 57);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -634,14 +634,14 @@
             // 
             // Drink
             // 
-            Drink.BackColor = SystemColors.ButtonFace;
+            Drink.BackColor = Color.Red;
             Drink.Controls.Add(panel1);
             Drink.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Drink.Location = new Point(15, 499);
-            Drink.Margin = new Padding(4);
+            Drink.Location = new Point(16, 389);
+            Drink.Margin = new Padding(3, 2, 3, 2);
             Drink.Name = "Drink";
-            Drink.Padding = new Padding(4);
-            Drink.Size = new Size(1000, 400);
+            Drink.Padding = new Padding(3, 2, 3, 2);
+            Drink.Size = new Size(714, 305);
             Drink.TabIndex = 2;
             Drink.TabStop = false;
             Drink.Text = "Drink";
@@ -686,20 +686,21 @@
             panel1.Controls.Add(button24);
             panel1.Controls.Add(label24);
             panel1.Controls.Add(pictureBox24);
-            panel1.Location = new Point(8, 38);
-            panel1.Margin = new Padding(4);
+            panel1.Font = new Font("Lucida Fax", 9F);
+            panel1.Location = new Point(6, 23);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(981, 354);
+            panel1.Size = new Size(687, 264);
             panel1.TabIndex = 0;
             // 
             // button13
             // 
             button13.BackColor = SystemColors.MenuHighlight;
             button13.ForeColor = SystemColors.ButtonFace;
-            button13.Location = new Point(766, 450);
-            button13.Margin = new Padding(4);
+            button13.Location = new Point(536, 270);
+            button13.Margin = new Padding(3, 2, 3, 2);
             button13.Name = "button13";
-            button13.Size = new Size(118, 36);
+            button13.Size = new Size(83, 22);
             button13.TabIndex = 36;
             button13.Text = "Add";
             button13.UseVisualStyleBackColor = false;
@@ -707,20 +708,20 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(766, 409);
-            label13.Margin = new Padding(4, 0, 4, 0);
+            label13.Font = new Font("Lucida Fax", 9F);
+            label13.Location = new Point(536, 245);
             label13.Name = "label13";
-            label13.Size = new Size(136, 30);
+            label13.Size = new Size(85, 15);
             label13.TabIndex = 35;
             label13.Text = "Wine $25.00";
             // 
             // pictureBox13
             // 
             pictureBox13.Image = Properties.Resources.download__11_;
-            pictureBox13.Location = new Point(615, 409);
-            pictureBox13.Margin = new Padding(4);
+            pictureBox13.Location = new Point(430, 245);
+            pictureBox13.Margin = new Padding(3, 2, 3, 2);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(122, 78);
+            pictureBox13.Size = new Size(85, 47);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 34;
             pictureBox13.TabStop = false;
@@ -729,10 +730,10 @@
             // 
             button14.BackColor = SystemColors.MenuHighlight;
             button14.ForeColor = SystemColors.ButtonFace;
-            button14.Location = new Point(446, 450);
-            button14.Margin = new Padding(4);
+            button14.Location = new Point(312, 270);
+            button14.Margin = new Padding(3, 2, 3, 2);
             button14.Name = "button14";
-            button14.Size = new Size(118, 36);
+            button14.Size = new Size(83, 22);
             button14.TabIndex = 33;
             button14.Text = "Add";
             button14.UseVisualStyleBackColor = false;
@@ -740,20 +741,20 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(446, 409);
-            label14.Margin = new Padding(4, 0, 4, 0);
+            label14.Font = new Font("Lucida Fax", 9F);
+            label14.Location = new Point(312, 245);
             label14.Name = "label14";
-            label14.Size = new Size(116, 30);
+            label14.Size = new Size(73, 15);
             label14.TabIndex = 32;
             label14.Text = "Beer $2.00";
             // 
             // pictureBox14
             // 
             pictureBox14.Image = Properties.Resources.download__12_;
-            pictureBox14.Location = new Point(300, 409);
-            pictureBox14.Margin = new Padding(4);
+            pictureBox14.Location = new Point(210, 245);
+            pictureBox14.Margin = new Padding(3, 2, 3, 2);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(122, 78);
+            pictureBox14.Size = new Size(85, 47);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 31;
             pictureBox14.TabStop = false;
@@ -762,10 +763,10 @@
             // 
             button15.BackColor = SystemColors.MenuHighlight;
             button15.ForeColor = SystemColors.ButtonFace;
-            button15.Location = new Point(162, 450);
-            button15.Margin = new Padding(4);
+            button15.Location = new Point(113, 270);
+            button15.Margin = new Padding(3, 2, 3, 2);
             button15.Name = "button15";
-            button15.Size = new Size(118, 36);
+            button15.Size = new Size(83, 22);
             button15.TabIndex = 30;
             button15.Text = "Add";
             button15.UseVisualStyleBackColor = false;
@@ -773,20 +774,20 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(168, 409);
-            label15.Margin = new Padding(4, 0, 4, 0);
+            label15.Font = new Font("Lucida Fax", 7F);
+            label15.Location = new Point(111, 245);
             label15.Name = "label15";
-            label15.Size = new Size(200, 30);
+            label15.Size = new Size(101, 14);
             label15.TabIndex = 29;
             label15.Text = "Energy Drink $1.00";
             // 
             // pictureBox15
             // 
             pictureBox15.Image = Properties.Resources.download__10_;
-            pictureBox15.Location = new Point(30, 409);
-            pictureBox15.Margin = new Padding(4);
+            pictureBox15.Location = new Point(21, 245);
+            pictureBox15.Margin = new Padding(3, 2, 3, 2);
             pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(122, 78);
+            pictureBox15.Size = new Size(85, 47);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 28;
             pictureBox15.TabStop = false;
@@ -795,10 +796,10 @@
             // 
             button16.BackColor = SystemColors.MenuHighlight;
             button16.ForeColor = SystemColors.ButtonFace;
-            button16.Location = new Point(764, 324);
-            button16.Margin = new Padding(4);
+            button16.Location = new Point(535, 194);
+            button16.Margin = new Padding(3, 2, 3, 2);
             button16.Name = "button16";
-            button16.Size = new Size(118, 36);
+            button16.Size = new Size(83, 22);
             button16.TabIndex = 27;
             button16.Text = "Add";
             button16.UseVisualStyleBackColor = false;
@@ -806,20 +807,20 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(764, 282);
-            label16.Margin = new Padding(4, 0, 4, 0);
+            label16.Font = new Font("Lucida Fax", 9F);
+            label16.Location = new Point(529, 169);
             label16.Name = "label16";
-            label16.Size = new Size(214, 30);
+            label16.Size = new Size(136, 15);
             label16.TabIndex = 26;
             label16.Text = "Hot Chocolate $2.00";
             // 
             // pictureBox16
             // 
             pictureBox16.Image = Properties.Resources.download__9_;
-            pictureBox16.Location = new Point(615, 282);
-            pictureBox16.Margin = new Padding(4);
+            pictureBox16.Location = new Point(430, 169);
+            pictureBox16.Margin = new Padding(3, 2, 3, 2);
             pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(122, 78);
+            pictureBox16.Size = new Size(85, 47);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 25;
             pictureBox16.TabStop = false;
@@ -828,10 +829,10 @@
             // 
             button17.BackColor = SystemColors.MenuHighlight;
             button17.ForeColor = SystemColors.ButtonFace;
-            button17.Location = new Point(441, 324);
-            button17.Margin = new Padding(4);
+            button17.Location = new Point(309, 194);
+            button17.Margin = new Padding(3, 2, 3, 2);
             button17.Name = "button17";
-            button17.Size = new Size(118, 36);
+            button17.Size = new Size(83, 22);
             button17.TabIndex = 24;
             button17.Text = "Add";
             button17.UseVisualStyleBackColor = false;
@@ -839,20 +840,20 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(446, 282);
-            label17.Margin = new Padding(4, 0, 4, 0);
+            label17.Font = new Font("Lucida Fax", 9F);
+            label17.Location = new Point(312, 169);
             label17.Name = "label17";
-            label17.Size = new Size(172, 30);
+            label17.Size = new Size(111, 15);
             label17.TabIndex = 23;
             label17.Text = "LemonTea $1.00";
             // 
             // pictureBox17
             // 
             pictureBox17.Image = Properties.Resources.download__5_;
-            pictureBox17.Location = new Point(300, 282);
-            pictureBox17.Margin = new Padding(4);
+            pictureBox17.Location = new Point(210, 169);
+            pictureBox17.Margin = new Padding(3, 2, 3, 2);
             pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(122, 78);
+            pictureBox17.Size = new Size(85, 47);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox17.TabIndex = 22;
             pictureBox17.TabStop = false;
@@ -861,10 +862,10 @@
             // 
             button18.BackColor = SystemColors.MenuHighlight;
             button18.ForeColor = SystemColors.ButtonFace;
-            button18.Location = new Point(165, 324);
-            button18.Margin = new Padding(4);
+            button18.Location = new Point(116, 194);
+            button18.Margin = new Padding(3, 2, 3, 2);
             button18.Name = "button18";
-            button18.Size = new Size(118, 36);
+            button18.Size = new Size(83, 22);
             button18.TabIndex = 21;
             button18.Text = "Add";
             button18.UseVisualStyleBackColor = false;
@@ -872,20 +873,20 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(165, 282);
-            label18.Margin = new Padding(4, 0, 4, 0);
+            label18.Font = new Font("Lucida Fax", 9F);
+            label18.Location = new Point(116, 169);
             label18.Name = "label18";
-            label18.Size = new Size(146, 30);
+            label18.Size = new Size(91, 15);
             label18.TabIndex = 20;
             label18.Text = "Matcha $2.00";
             // 
             // pictureBox18
             // 
             pictureBox18.Image = Properties.Resources.download__8_;
-            pictureBox18.Location = new Point(30, 282);
-            pictureBox18.Margin = new Padding(4);
+            pictureBox18.Location = new Point(21, 169);
+            pictureBox18.Margin = new Padding(3, 2, 3, 2);
             pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(122, 78);
+            pictureBox18.Size = new Size(85, 47);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 19;
             pictureBox18.TabStop = false;
@@ -894,10 +895,10 @@
             // 
             button19.BackColor = SystemColors.MenuHighlight;
             button19.ForeColor = SystemColors.ButtonFace;
-            button19.Location = new Point(764, 194);
-            button19.Margin = new Padding(4);
+            button19.Location = new Point(535, 116);
+            button19.Margin = new Padding(3, 2, 3, 2);
             button19.Name = "button19";
-            button19.Size = new Size(118, 36);
+            button19.Size = new Size(83, 22);
             button19.TabIndex = 18;
             button19.Text = "Add";
             button19.UseVisualStyleBackColor = false;
@@ -905,20 +906,20 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(766, 152);
-            label19.Margin = new Padding(4, 0, 4, 0);
+            label19.Font = new Font("Lucida Fax", 9F);
+            label19.Location = new Point(536, 91);
             label19.Name = "label19";
-            label19.Size = new Size(131, 30);
+            label19.Size = new Size(82, 15);
             label19.TabIndex = 17;
             label19.Text = "Water $0.25";
             // 
             // pictureBox19
             // 
             pictureBox19.Image = Properties.Resources.download__7_;
-            pictureBox19.Location = new Point(615, 152);
-            pictureBox19.Margin = new Padding(4);
+            pictureBox19.Location = new Point(430, 91);
+            pictureBox19.Margin = new Padding(3, 2, 3, 2);
             pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(122, 78);
+            pictureBox19.Size = new Size(85, 47);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox19.TabIndex = 16;
             pictureBox19.TabStop = false;
@@ -927,10 +928,10 @@
             // 
             button20.BackColor = SystemColors.MenuHighlight;
             button20.ForeColor = SystemColors.ButtonFace;
-            button20.Location = new Point(444, 194);
-            button20.Margin = new Padding(4);
+            button20.Location = new Point(311, 116);
+            button20.Margin = new Padding(3, 2, 3, 2);
             button20.Name = "button20";
-            button20.Size = new Size(118, 36);
+            button20.Size = new Size(83, 22);
             button20.TabIndex = 15;
             button20.Text = "Add";
             button20.UseVisualStyleBackColor = false;
@@ -938,20 +939,20 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(444, 152);
-            label20.Margin = new Padding(4, 0, 4, 0);
+            label20.Font = new Font("Lucida Fax", 9F);
+            label20.Location = new Point(311, 91);
             label20.Name = "label20";
-            label20.Size = new Size(163, 30);
+            label20.Size = new Size(105, 15);
             label20.TabIndex = 14;
             label20.Text = "GreenTea $1.00";
             // 
             // pictureBox20
             // 
             pictureBox20.Image = Properties.Resources.download__6_;
-            pictureBox20.Location = new Point(300, 152);
-            pictureBox20.Margin = new Padding(4);
+            pictureBox20.Location = new Point(210, 91);
+            pictureBox20.Margin = new Padding(3, 2, 3, 2);
             pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(122, 78);
+            pictureBox20.Size = new Size(85, 47);
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox20.TabIndex = 13;
             pictureBox20.TabStop = false;
@@ -960,10 +961,10 @@
             // 
             button21.BackColor = SystemColors.MenuHighlight;
             button21.ForeColor = SystemColors.ButtonFace;
-            button21.Location = new Point(162, 194);
-            button21.Margin = new Padding(4);
+            button21.Location = new Point(113, 116);
+            button21.Margin = new Padding(3, 2, 3, 2);
             button21.Name = "button21";
-            button21.Size = new Size(118, 36);
+            button21.Size = new Size(83, 22);
             button21.TabIndex = 12;
             button21.Text = "Add";
             button21.UseVisualStyleBackColor = false;
@@ -971,20 +972,20 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(162, 152);
-            label21.Margin = new Padding(4, 0, 4, 0);
+            label21.Font = new Font("Lucida Fax", 8F);
+            label21.Location = new Point(111, 91);
             label21.Name = "label21";
-            label21.Size = new Size(168, 30);
+            label21.Size = new Size(93, 14);
             label21.TabIndex = 11;
             label21.Text = "Smoothie $1.00";
             // 
             // pictureBox21
             // 
             pictureBox21.Image = Properties.Resources.download__4_;
-            pictureBox21.Location = new Point(30, 152);
-            pictureBox21.Margin = new Padding(4);
+            pictureBox21.Location = new Point(21, 91);
+            pictureBox21.Margin = new Padding(3, 2, 3, 2);
             pictureBox21.Name = "pictureBox21";
-            pictureBox21.Size = new Size(122, 78);
+            pictureBox21.Size = new Size(85, 47);
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox21.TabIndex = 10;
             pictureBox21.TabStop = false;
@@ -993,10 +994,10 @@
             // 
             button22.BackColor = SystemColors.MenuHighlight;
             button22.ForeColor = SystemColors.ButtonFace;
-            button22.Location = new Point(764, 58);
-            button22.Margin = new Padding(4);
+            button22.Location = new Point(535, 35);
+            button22.Margin = new Padding(3, 2, 3, 2);
             button22.Name = "button22";
-            button22.Size = new Size(118, 36);
+            button22.Size = new Size(83, 22);
             button22.TabIndex = 9;
             button22.Text = "Add";
             button22.UseVisualStyleBackColor = false;
@@ -1004,20 +1005,20 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(745, 16);
-            label22.Margin = new Padding(4, 0, 4, 0);
+            label22.Font = new Font("Lucida Fax", 9F);
+            label22.Location = new Point(522, 10);
             label22.Name = "label22";
-            label22.Size = new Size(200, 30);
+            label22.Size = new Size(125, 15);
             label22.TabIndex = 8;
             label22.Text = "Orange Juice $1.00";
             // 
             // pictureBox22
             // 
             pictureBox22.Image = Properties.Resources.pngtree_glass_of_orange_juice_white_space_png_image_13594427;
-            pictureBox22.Location = new Point(615, 16);
-            pictureBox22.Margin = new Padding(4);
+            pictureBox22.Location = new Point(430, 10);
+            pictureBox22.Margin = new Padding(3, 2, 3, 2);
             pictureBox22.Name = "pictureBox22";
-            pictureBox22.Size = new Size(122, 78);
+            pictureBox22.Size = new Size(85, 47);
             pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox22.TabIndex = 7;
             pictureBox22.TabStop = false;
@@ -1026,10 +1027,10 @@
             // 
             button23.BackColor = SystemColors.MenuHighlight;
             button23.ForeColor = SystemColors.ButtonFace;
-            button23.Location = new Point(444, 58);
-            button23.Margin = new Padding(4);
+            button23.Location = new Point(311, 35);
+            button23.Margin = new Padding(3, 2, 3, 2);
             button23.Name = "button23";
-            button23.Size = new Size(118, 36);
+            button23.Size = new Size(83, 22);
             button23.TabIndex = 6;
             button23.Text = "Add";
             button23.UseVisualStyleBackColor = false;
@@ -1037,20 +1038,20 @@
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(444, 16);
-            label23.Margin = new Padding(4, 0, 4, 0);
+            label23.Font = new Font("Lucida Fax", 9F);
+            label23.Location = new Point(311, 10);
             label23.Name = "label23";
-            label23.Size = new Size(163, 30);
+            label23.Size = new Size(105, 15);
             label23.TabIndex = 5;
             label23.Text = "Capuccino $1.5";
             // 
             // pictureBox23
             // 
             pictureBox23.Image = Properties.Resources.download__3_;
-            pictureBox23.Location = new Point(300, 16);
-            pictureBox23.Margin = new Padding(4);
+            pictureBox23.Location = new Point(210, 10);
+            pictureBox23.Margin = new Padding(3, 2, 3, 2);
             pictureBox23.Name = "pictureBox23";
-            pictureBox23.Size = new Size(122, 78);
+            pictureBox23.Size = new Size(85, 47);
             pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox23.TabIndex = 4;
             pictureBox23.TabStop = false;
@@ -1059,10 +1060,10 @@
             // 
             button24.BackColor = SystemColors.MenuHighlight;
             button24.ForeColor = SystemColors.ButtonFace;
-            button24.Location = new Point(160, 58);
-            button24.Margin = new Padding(4);
+            button24.Location = new Point(112, 35);
+            button24.Margin = new Padding(3, 2, 3, 2);
             button24.Name = "button24";
-            button24.Size = new Size(118, 36);
+            button24.Size = new Size(83, 22);
             button24.TabIndex = 3;
             button24.Text = "Add";
             button24.UseVisualStyleBackColor = false;
@@ -1070,10 +1071,10 @@
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(148, 16);
-            label24.Margin = new Padding(4, 0, 4, 0);
+            label24.Font = new Font("Lucida Fax", 9F);
+            label24.Location = new Point(104, 10);
             label24.Name = "label24";
-            label24.Size = new Size(163, 30);
+            label24.Size = new Size(106, 15);
             label24.TabIndex = 2;
             label24.Text = "CocaCola $1.00";
             label24.TextAlign = ContentAlignment.TopCenter;
@@ -1081,10 +1082,10 @@
             // pictureBox24
             // 
             pictureBox24.Image = Properties.Resources.download__2_;
-            pictureBox24.Location = new Point(30, 16);
-            pictureBox24.Margin = new Padding(4);
+            pictureBox24.Location = new Point(21, 10);
+            pictureBox24.Margin = new Padding(3, 2, 3, 2);
             pictureBox24.Name = "pictureBox24";
-            pictureBox24.Size = new Size(122, 78);
+            pictureBox24.Size = new Size(85, 47);
             pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox24.TabIndex = 0;
             pictureBox24.TabStop = false;
@@ -1097,12 +1098,12 @@
             dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colItem, colPrice, colQty, colTotal });
-            dataGridView1.Location = new Point(1039, 140);
-            dataGridView1.Margin = new Padding(4);
+            dataGridView1.Location = new Point(757, 105);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(789, 376);
+            dataGridView1.Size = new Size(552, 226);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -1137,18 +1138,18 @@
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(1084, 388);
-            label25.Margin = new Padding(4, 0, 4, 0);
+            label25.Font = new Font("Segoe UI", 15F);
+            label25.Location = new Point(761, 339);
             label25.Name = "label25";
-            label25.Size = new Size(53, 25);
+            label25.Size = new Size(58, 28);
             label25.TabIndex = 37;
             label25.Text = "Total:";
             // 
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new Point(1666, 388);
-            label26.Margin = new Padding(4, 0, 4, 0);
+            label26.Font = new Font("Segoe UI", 14F);
+            label26.Location = new Point(1277, 339);
             label26.Name = "label26";
             label26.Size = new Size(56, 25);
             label26.TabIndex = 38;
@@ -1159,10 +1160,10 @@
             button25.BackColor = Color.FromArgb(64, 0, 64);
             button25.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button25.ForeColor = SystemColors.ButtonFace;
-            button25.Location = new Point(1056, 524);
-            button25.Margin = new Padding(4);
+            button25.Location = new Point(768, 402);
+            button25.Margin = new Padding(3, 2, 3, 2);
             button25.Name = "button25";
-            button25.Size = new Size(175, 48);
+            button25.Size = new Size(122, 29);
             button25.TabIndex = 37;
             button25.Text = "Clear Card";
             button25.UseVisualStyleBackColor = false;
@@ -1172,10 +1173,10 @@
             button26.BackColor = Color.LimeGreen;
             button26.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button26.ForeColor = SystemColors.ButtonFace;
-            button26.Location = new Point(1262, 527);
-            button26.Margin = new Padding(4);
+            button26.Location = new Point(912, 404);
+            button26.Margin = new Padding(3, 2, 3, 2);
             button26.Name = "button26";
-            button26.Size = new Size(158, 44);
+            button26.Size = new Size(111, 26);
             button26.TabIndex = 39;
             button26.Text = "Checkout";
             button26.UseVisualStyleBackColor = false;
@@ -1186,10 +1187,10 @@
             button27.BackColor = Color.Red;
             button27.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button27.ForeColor = SystemColors.ButtonFace;
-            button27.Location = new Point(1471, 527);
-            button27.Margin = new Padding(4);
+            button27.Location = new Point(1059, 404);
+            button27.Margin = new Padding(3, 2, 3, 2);
             button27.Name = "button27";
-            button27.Size = new Size(251, 45);
+            button27.Size = new Size(176, 27);
             button27.TabIndex = 40;
             button27.Text = "Print Receipt";
             button27.UseVisualStyleBackColor = false;
@@ -1198,10 +1199,9 @@
             // 
             label27.AutoSize = true;
             label27.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label27.Location = new Point(1044, 590);
-            label27.Margin = new Padding(4, 0, 4, 0);
+            label27.Location = new Point(770, 442);
             label27.Name = "label27";
-            label27.Size = new Size(127, 32);
+            label27.Size = new Size(85, 21);
             label27.TabIndex = 41;
             label27.Text = "Sub Total:";
             // 
@@ -1209,30 +1209,27 @@
             // 
             label28.AutoSize = true;
             label28.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label28.Location = new Point(1044, 634);
-            label28.Margin = new Padding(4, 0, 4, 0);
+            label28.Location = new Point(770, 468);
             label28.Name = "label28";
-            label28.Size = new Size(59, 32);
+            label28.Size = new Size(40, 21);
             label28.TabIndex = 42;
             label28.Text = "Tax:";
             // 
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(1099, 651);
-            label29.Margin = new Padding(4, 0, 4, 0);
+            label29.Location = new Point(808, 479);
             label29.Name = "label29";
-            label29.Size = new Size(0, 25);
+            label29.Size = new Size(0, 15);
             label29.TabIndex = 43;
             // 
             // label30
             // 
             label30.AutoSize = true;
             label30.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label30.Location = new Point(1558, 634);
-            label30.Margin = new Padding(4, 0, 4, 0);
+            label30.Location = new Point(1130, 468);
             label30.Name = "label30";
-            label30.Size = new Size(77, 32);
+            label30.Size = new Size(50, 21);
             label30.TabIndex = 44;
             label30.Text = "$0.00";
             // 
@@ -1240,10 +1237,9 @@
             // 
             label31.AutoSize = true;
             label31.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label31.Location = new Point(1558, 590);
-            label31.Margin = new Padding(4, 0, 4, 0);
+            label31.Location = new Point(1130, 442);
             label31.Name = "label31";
-            label31.Size = new Size(77, 32);
+            label31.Size = new Size(50, 21);
             label31.TabIndex = 45;
             label31.Text = "$0.00";
             // 
@@ -1251,10 +1247,9 @@
             // 
             label32.AutoSize = true;
             label32.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label32.Location = new Point(1558, 680);
-            label32.Margin = new Padding(4, 0, 4, 0);
+            label32.Location = new Point(1130, 496);
             label32.Name = "label32";
-            label32.Size = new Size(77, 32);
+            label32.Size = new Size(50, 21);
             label32.TabIndex = 46;
             label32.Text = "$0.00";
             // 
@@ -1262,10 +1257,9 @@
             // 
             label33.AutoSize = true;
             label33.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label33.Location = new Point(1044, 680);
-            label33.Margin = new Padding(4, 0, 4, 0);
+            label33.Location = new Point(770, 496);
             label33.Name = "label33";
-            label33.Size = new Size(77, 32);
+            label33.Size = new Size(52, 21);
             label33.TabIndex = 47;
             label33.Text = "Total:";
             // 
@@ -1273,10 +1267,9 @@
             // 
             label34.AutoSize = true;
             label34.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label34.Location = new Point(1039, 731);
-            label34.Margin = new Padding(4, 0, 4, 0);
+            label34.Location = new Point(766, 527);
             label34.Name = "label34";
-            label34.Size = new Size(188, 30);
+            label34.Size = new Size(128, 19);
             label34.TabIndex = 48;
             label34.Text = "Payment Method:";
             // 
@@ -1284,28 +1277,27 @@
             // 
             label35.AutoSize = true;
             label35.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label35.Location = new Point(1044, 782);
-            label35.Margin = new Padding(4, 0, 4, 0);
+            label35.Location = new Point(770, 557);
             label35.Name = "label35";
-            label35.Size = new Size(177, 30);
+            label35.Size = new Size(121, 19);
             label35.TabIndex = 49;
             label35.Text = "Customer Name:";
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(1231, 731);
-            comboBox1.Margin = new Padding(4);
+            comboBox1.Location = new Point(901, 527);
+            comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(540, 33);
+            comboBox1.Size = new Size(379, 23);
             comboBox1.TabIndex = 50;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(1231, 778);
-            textBox1.Margin = new Padding(4);
+            textBox1.Location = new Point(901, 555);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(540, 31);
+            textBox1.Size = new Size(379, 23);
             textBox1.TabIndex = 51;
             // 
             // panel3
@@ -1315,10 +1307,10 @@
             panel3.Controls.Add(button30);
             panel3.Controls.Add(button29);
             panel3.Controls.Add(button28);
-            panel3.Location = new Point(34, 916);
-            panel3.Margin = new Padding(4);
+            panel3.Location = new Point(754, 655);
+            panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(898, 80);
+            panel3.Size = new Size(619, 48);
             panel3.TabIndex = 58;
             // 
             // button32
@@ -1326,10 +1318,10 @@
             button32.BackColor = Color.Red;
             button32.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button32.ForeColor = SystemColors.ButtonFace;
-            button32.Location = new Point(699, 24);
-            button32.Margin = new Padding(4);
+            button32.Location = new Point(489, 14);
+            button32.Margin = new Padding(3, 2, 3, 2);
             button32.Name = "button32";
-            button32.Size = new Size(146, 52);
+            button32.Size = new Size(102, 31);
             button32.TabIndex = 41;
             button32.Text = "Close";
             button32.UseVisualStyleBackColor = false;
@@ -1339,10 +1331,10 @@
             button31.BackColor = SystemColors.Highlight;
             button31.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button31.ForeColor = SystemColors.ButtonFace;
-            button31.Location = new Point(496, 24);
-            button31.Margin = new Padding(4);
+            button31.Location = new Point(347, 14);
+            button31.Margin = new Padding(3, 2, 3, 2);
             button31.Name = "button31";
-            button31.Size = new Size(176, 52);
+            button31.Size = new Size(123, 31);
             button31.TabIndex = 40;
             button31.Text = "Print Receipt";
             button31.UseVisualStyleBackColor = false;
@@ -1352,10 +1344,10 @@
             button30.BackColor = Color.LimeGreen;
             button30.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button30.ForeColor = SystemColors.ButtonFace;
-            button30.Location = new Point(363, 24);
-            button30.Margin = new Padding(4);
+            button30.Location = new Point(254, 14);
+            button30.Margin = new Padding(3, 2, 3, 2);
             button30.Name = "button30";
-            button30.Size = new Size(125, 52);
+            button30.Size = new Size(88, 31);
             button30.TabIndex = 39;
             button30.Text = "Checkout";
             button30.UseVisualStyleBackColor = false;
@@ -1366,10 +1358,10 @@
             button29.BackColor = Color.DarkOrange;
             button29.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button29.ForeColor = SystemColors.ButtonFace;
-            button29.Location = new Point(198, 24);
-            button29.Margin = new Padding(4);
+            button29.Location = new Point(139, 14);
+            button29.Margin = new Padding(3, 2, 3, 2);
             button29.Name = "button29";
-            button29.Size = new Size(139, 52);
+            button29.Size = new Size(97, 31);
             button29.TabIndex = 38;
             button29.Text = "Discount";
             button29.UseVisualStyleBackColor = false;
@@ -1379,10 +1371,10 @@
             button28.BackColor = Color.FromArgb(0, 0, 192);
             button28.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button28.ForeColor = SystemColors.ButtonFace;
-            button28.Location = new Point(30, 24);
-            button28.Margin = new Padding(4);
+            button28.Location = new Point(21, 14);
+            button28.Margin = new Padding(3, 2, 3, 2);
             button28.Name = "button28";
-            button28.Size = new Size(160, 52);
+            button28.Size = new Size(112, 31);
             button28.TabIndex = 37;
             button28.Text = "New Order";
             button28.UseVisualStyleBackColor = false;
@@ -1398,10 +1390,9 @@
             // 
             label42.AutoSize = true;
             label42.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label42.Location = new Point(1044, 89);
-            label42.Margin = new Padding(4, 0, 4, 0);
+            label42.Location = new Point(761, 74);
             label42.Name = "label42";
-            label42.Size = new Size(155, 38);
+            label42.Size = new Size(107, 25);
             label42.TabIndex = 59;
             label42.Text = "Order Cart";
             // 
@@ -1411,18 +1402,20 @@
             panel4.BorderStyle = BorderStyle.FixedSingle;
             panel4.Controls.Add(label43);
             panel4.Location = new Point(0, 1);
+            panel4.Margin = new Padding(2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1828, 85);
+            panel4.Size = new Size(1834, 52);
             panel4.TabIndex = 60;
             // 
             // label43
             // 
             label43.AutoSize = true;
-            label43.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label43.Font = new Font("Lucida Fax", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label43.ForeColor = SystemColors.ButtonFace;
-            label43.Location = new Point(126, 9);
+            label43.Location = new Point(88, 5);
+            label43.Margin = new Padding(2, 0, 2, 0);
             label43.Name = "label43";
-            label43.Size = new Size(274, 48);
+            label43.Size = new Size(202, 27);
             label43.TabIndex = 0;
             label43.Text = "YummyYummy";
             // 
@@ -1430,9 +1423,10 @@
             // 
             pictureBox25.BackColor = Color.FromArgb(192, 0, 0);
             pictureBox25.Image = Properties.Resources.photo_2026_06_19_09_25_58_removebg_preview;
-            pictureBox25.Location = new Point(15, 1);
+            pictureBox25.Location = new Point(10, 1);
+            pictureBox25.Margin = new Padding(2);
             pictureBox25.Name = "pictureBox25";
-            pictureBox25.Size = new Size(115, 85);
+            pictureBox25.Size = new Size(80, 51);
             pictureBox25.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox25.TabIndex = 61;
             pictureBox25.TabStop = false;
@@ -1440,10 +1434,10 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(2210, 1021);
+            ClientSize = new Size(1286, 804);
             Controls.Add(pictureBox25);
             Controls.Add(panel4);
             Controls.Add(label42);
@@ -1467,7 +1461,7 @@
             Controls.Add(dataGridView1);
             Controls.Add(Drink);
             Controls.Add(Food);
-            Margin = new Padding(4);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Point of Sale";
             Load += Form1_Load;
