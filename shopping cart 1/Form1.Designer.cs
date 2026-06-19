@@ -251,9 +251,9 @@
             label12.Location = new Point(766, 409);
             label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(139, 30);
+            label12.Size = new Size(126, 30);
             label12.TabIndex = 35;
-            label12.Text = "Burger $5.00";
+            label12.Text = "Steak $5.00";
             // 
             // pictureBox12
             // 
@@ -284,9 +284,9 @@
             label11.Location = new Point(446, 409);
             label11.Margin = new Padding(4, 0, 4, 0);
             label11.Name = "label11";
-            label11.Size = new Size(139, 30);
+            label11.Size = new Size(117, 30);
             label11.TabIndex = 32;
-            label11.Text = "Burger $5.00";
+            label11.Text = "Taco $1.00";
             // 
             // pictureBox11
             // 
@@ -317,9 +317,9 @@
             label10.Location = new Point(160, 409);
             label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
-            label10.Size = new Size(139, 30);
+            label10.Size = new Size(146, 30);
             label10.TabIndex = 29;
-            label10.Text = "Burger $5.00";
+            label10.Text = "Noddle $2.00";
             // 
             // pictureBox10
             // 
@@ -350,9 +350,9 @@
             label9.Location = new Point(764, 282);
             label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(139, 30);
+            label9.Size = new Size(160, 30);
             label9.TabIndex = 26;
-            label9.Text = "Burger $5.00";
+            label9.Text = "Spagheti $2.00";
             // 
             // pictureBox9
             // 
@@ -383,9 +383,9 @@
             label8.Location = new Point(446, 282);
             label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
-            label8.Size = new Size(139, 30);
+            label8.Size = new Size(126, 30);
             label8.TabIndex = 23;
-            label8.Text = "Burger $5.00";
+            label8.Text = "Salad $1.00";
             // 
             // pictureBox8
             // 
@@ -416,9 +416,9 @@
             label7.Location = new Point(160, 282);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(139, 30);
+            label7.Size = new Size(138, 30);
             label7.TabIndex = 20;
-            label7.Text = "Burger $5.00";
+            label7.Text = "Sushi $15.00";
             // 
             // pictureBox7
             // 
@@ -446,12 +446,12 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(766, 152);
+            label6.Location = new Point(745, 152);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(139, 30);
+            label6.Size = new Size(202, 30);
             label6.TabIndex = 17;
-            label6.Text = "Burger $5.00";
+            label6.Text = "Fries Chicken $3.00";
             // 
             // pictureBox6
             // 
@@ -483,9 +483,9 @@
             label5.Location = new Point(444, 152);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(139, 30);
+            label5.Size = new Size(118, 30);
             label5.TabIndex = 14;
-            label5.Text = "Burger $5.00";
+            label5.Text = "Fries $2.00";
             // 
             // pictureBox5
             // 
@@ -516,9 +516,10 @@
             label4.Location = new Point(162, 152);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(139, 30);
+            label4.Size = new Size(168, 30);
             label4.TabIndex = 11;
-            label4.Text = "Burger $5.00";
+            label4.Text = "Sandwich $1.00";
+            label4.Click += label4_Click;
             // 
             // pictureBox4
             // 
@@ -549,9 +550,9 @@
             label3.Location = new Point(764, 16);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(139, 30);
+            label3.Size = new Size(149, 30);
             label3.TabIndex = 8;
-            label3.Text = "Burger $5.00";
+            label3.Text = "Hotdog $2.00";
             // 
             // pictureBox3
             // 
@@ -582,9 +583,9 @@
             label1.Location = new Point(444, 16);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(139, 30);
+            label1.Size = new Size(135, 30);
             label1.TabIndex = 5;
-            label1.Text = "Burger $5.00";
+            label1.Text = "Pizza $10.99";
             // 
             // pictureBox2
             // 
@@ -709,9 +710,9 @@
             label13.Location = new Point(766, 409);
             label13.Margin = new Padding(4, 0, 4, 0);
             label13.Name = "label13";
-            label13.Size = new Size(139, 30);
+            label13.Size = new Size(136, 30);
             label13.TabIndex = 35;
-            label13.Text = "Burger $5.00";
+            label13.Text = "Wine $25.00";
             // 
             // pictureBox13
             // 
@@ -742,9 +743,9 @@
             label14.Location = new Point(446, 409);
             label14.Margin = new Padding(4, 0, 4, 0);
             label14.Name = "label14";
-            label14.Size = new Size(139, 30);
+            label14.Size = new Size(116, 30);
             label14.TabIndex = 32;
-            label14.Text = "Burger $5.00";
+            label14.Text = "Beer $2.00";
             // 
             // pictureBox14
             // 
@@ -775,9 +776,9 @@
             label15.Location = new Point(168, 409);
             label15.Margin = new Padding(4, 0, 4, 0);
             label15.Name = "label15";
-            label15.Size = new Size(139, 30);
+            label15.Size = new Size(200, 30);
             label15.TabIndex = 29;
-            label15.Text = "Burger $5.00";
+            label15.Text = "Energy Drink $1.00";
             // 
             // pictureBox15
             // 
@@ -808,9 +809,9 @@
             label16.Location = new Point(764, 282);
             label16.Margin = new Padding(4, 0, 4, 0);
             label16.Name = "label16";
-            label16.Size = new Size(139, 30);
+            label16.Size = new Size(214, 30);
             label16.TabIndex = 26;
-            label16.Text = "Burger $5.00";
+            label16.Text = "Hot Chocolate $2.00";
             // 
             // pictureBox16
             // 
@@ -841,9 +842,9 @@
             label17.Location = new Point(446, 282);
             label17.Margin = new Padding(4, 0, 4, 0);
             label17.Name = "label17";
-            label17.Size = new Size(139, 30);
+            label17.Size = new Size(172, 30);
             label17.TabIndex = 23;
-            label17.Text = "Burger $5.00";
+            label17.Text = "LemonTea $1.00";
             // 
             // pictureBox17
             // 
@@ -874,9 +875,9 @@
             label18.Location = new Point(165, 282);
             label18.Margin = new Padding(4, 0, 4, 0);
             label18.Name = "label18";
-            label18.Size = new Size(139, 30);
+            label18.Size = new Size(146, 30);
             label18.TabIndex = 20;
-            label18.Text = "Burger $5.00";
+            label18.Text = "Matcha $2.00";
             // 
             // pictureBox18
             // 
@@ -907,9 +908,9 @@
             label19.Location = new Point(766, 152);
             label19.Margin = new Padding(4, 0, 4, 0);
             label19.Name = "label19";
-            label19.Size = new Size(139, 30);
+            label19.Size = new Size(131, 30);
             label19.TabIndex = 17;
-            label19.Text = "Burger $5.00";
+            label19.Text = "Water $0.25";
             // 
             // pictureBox19
             // 
@@ -940,9 +941,9 @@
             label20.Location = new Point(444, 152);
             label20.Margin = new Padding(4, 0, 4, 0);
             label20.Name = "label20";
-            label20.Size = new Size(139, 30);
+            label20.Size = new Size(163, 30);
             label20.TabIndex = 14;
-            label20.Text = "Burger $5.00";
+            label20.Text = "GreenTea $1.00";
             // 
             // pictureBox20
             // 
@@ -973,9 +974,9 @@
             label21.Location = new Point(162, 152);
             label21.Margin = new Padding(4, 0, 4, 0);
             label21.Name = "label21";
-            label21.Size = new Size(139, 30);
+            label21.Size = new Size(168, 30);
             label21.TabIndex = 11;
-            label21.Text = "Burger $5.00";
+            label21.Text = "Smoothie $1.00";
             // 
             // pictureBox21
             // 
@@ -1003,12 +1004,12 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(764, 16);
+            label22.Location = new Point(745, 16);
             label22.Margin = new Padding(4, 0, 4, 0);
             label22.Name = "label22";
-            label22.Size = new Size(139, 30);
+            label22.Size = new Size(200, 30);
             label22.TabIndex = 8;
-            label22.Text = "Burger $5.00";
+            label22.Text = "Orange Juice $1.00";
             // 
             // pictureBox22
             // 
@@ -1039,9 +1040,9 @@
             label23.Location = new Point(444, 16);
             label23.Margin = new Padding(4, 0, 4, 0);
             label23.Name = "label23";
-            label23.Size = new Size(139, 30);
+            label23.Size = new Size(163, 30);
             label23.TabIndex = 5;
-            label23.Text = "Burger $5.00";
+            label23.Text = "Capuccino $1.5";
             // 
             // pictureBox23
             // 
@@ -1069,7 +1070,7 @@
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(160, 16);
+            label24.Location = new Point(148, 16);
             label24.Margin = new Padding(4, 0, 4, 0);
             label24.Name = "label24";
             label24.Size = new Size(163, 30);
@@ -1155,7 +1156,7 @@
             // 
             // button25
             // 
-            button25.BackColor = SystemColors.ActiveCaption;
+            button25.BackColor = Color.FromArgb(64, 0, 64);
             button25.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button25.ForeColor = SystemColors.ButtonFace;
             button25.Location = new Point(1056, 524);
@@ -1351,7 +1352,7 @@
             button30.BackColor = Color.LimeGreen;
             button30.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button30.ForeColor = SystemColors.ButtonFace;
-            button30.Location = new Point(344, 22);
+            button30.Location = new Point(363, 24);
             button30.Margin = new Padding(4);
             button30.Name = "button30";
             button30.Size = new Size(125, 52);
