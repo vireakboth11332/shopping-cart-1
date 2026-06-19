@@ -72,6 +72,11 @@ namespace shopping_cart_1
         {
 
         }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

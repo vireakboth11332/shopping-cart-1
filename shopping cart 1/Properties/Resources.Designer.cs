@@ -224,6 +224,36 @@ namespace shopping_cart_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap photo_2026_06_19_09_25_58 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2026-06-19_09-25-58", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2026_06_19_09_25_58_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("photo_2026-06-19_09-25-58-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2026_06_19_09_25_581 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2026-06-19_09-25-581", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pizza {
             get {
                 object obj = ResourceManager.GetObject("Pizza", resourceCulture);
@@ -247,6 +277,16 @@ namespace shopping_cart_1.Properties {
         internal static System.Drawing.Bitmap sandwhich {
             get {
                 object obj = ResourceManager.GetObject("sandwhich", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toyota_supra_gt_5120x2880_22642 {
+            get {
+                object obj = ResourceManager.GetObject("toyota-supra-gt-5120x2880-22642", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

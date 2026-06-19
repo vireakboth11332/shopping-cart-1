@@ -136,14 +136,20 @@
   <data name="download (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="download (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toyota-supra-gt-5120x2880-22642" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toyota-supra-gt-5120x2880-22642.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-login-icon-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-login-icon-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2026-06-19_09-25-581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2026-06-19_09-25-581.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,14 +157,17 @@
   <data name="photo_2026-06-18_09-21-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo_2026-06-18_09-21-32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3d-sign-in-form-with-boy-stand-with-holding-sign-in-form-on-transparent-background-PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3d-sign-in-form-with-boy-stand-with-holding-sign-in-form-on-transparent-background-PNG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="photo_2026-06-18_09-33-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo_2026-06-18_09-33-30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2026-06-19_09-25-58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2026-06-19_09-25-58.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,10 +181,13 @@
   <data name="download (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="download (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-login-icon-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-login-icon-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="photo_2026-06-19_09-25-58-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2026-06-19_09-25-58-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
